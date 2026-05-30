@@ -6,6 +6,8 @@
 
 ![setup3](preview/2026-05-30_13-56-48.png)
 
+![setup](preview/2026-05-30_15-56-48.png)
+
 
 # ✨ Dotfiles
 
