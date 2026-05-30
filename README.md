@@ -1,66 +1,95 @@
 # ✨ Dotfiles
 
-> My personal Linux development environment setup.
+> minimal · fast · clean — my personal hyprland setup on CachyOS
 
-A collection of configuration files, shell customizations, aliases, and tools that I use daily. This repository allows me to quickly recreate my preferred development environment on a fresh system.
+![OS](https://img.shields.io/badge/OS-CachyOS-blue?style=flat-square)
+![WM](https://img.shields.io/badge/WM-Hyprland-cyan?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-ZSH-green?style=flat-square)
+![Terminal](https://img.shields.io/badge/Terminal-Kitty-orange?style=flat-square)
+
+</div>
 
 ---
 
-
-
 ## 📦 What's Included
 
-- 🐚 Shell configuration
-- ⚡ Aliases and productivity shortcuts
-- 🎨 Terminal customization
-- 🔧 Development environment settings
-- 📁 Personal dotfiles
-- 🚀 Automated installation script
+- 🪟 Hyprland window manager config
+- 📊 Waybar status bar
+- 🔒 Hyprlock lockscreen
+- 🚀 Wofi launcher
+- 🔔 Mako notifications
+- 🖼️ Swww + Waypaper wallpaper setup
+- ⚡ Wlogout power menu
+- 🐚 ZSH + Starship prompt
+- 📜 Custom scripts (wallpaper, screenshot, screen record)
+
+---
+
+## 🛠 Requirements
+
+- CachyOS / Arch Linux
+- Git
+- yay (AUR helper)
 
 ---
 
 ## 🚀 Installation
 
-Clone the repository:
+```bash
+# 1. install dependencies
+yay -S hyprland waybar kitty wofi wlogout hyprlock hypridle \
+    swww waypaper mako starship fastfetch cliphist \
+    wl-clipboard grim slurp libinput-gestures wf-recorder
 
-git clone https://github.com/Goutham-675/DotFiles.git
-cd Dofiles
-chmod +x install.sh
+# 2. clone the repo
+git clone git@github.com:Goutham-675/DotFiles.git ~/dotfiles
 
+# 3. run install script
+cd ~/dotfiles && ./install.sh
 
-That's it! The script will automatically set up the entire environment.
+# 4. reload hyprland
+hyprctl reload
+```
 
+---
 
-## 🛠 Requirements
+## ⌨️ Keybinds
 
-- Linux
-- Git
-- Bash
+| key | action |
+|-----|--------|
+| `Super + Return` | terminal |
+| `Super + D` | launcher |
+| `Super + Q` | kill window |
+| `Super + L` | lock screen |
+| `Super + X` | power menu |
+| `Super + W` | random wallpaper |
+| `Super + Shift + W` | wallpaper picker |
+| `Super + C` | clipboard history |
+| `Super + Shift + S` | screenshot |
+| `Super + Shift + R` | screen record |
+| `Super + B` | toggle waybar |
 
-Additional dependencies (if any) are handled by the installer.
-
+---
 
 ## 🎯 Goal
 
-The purpose of this repository is to:
-
-- Quickly bootstrap a new machine
-- Keep configurations version-controlled
-- Maintain a consistent development environment
-- Save time when switching systems
+- quickly bootstrap a new machine
+- keep configs version controlled
+- consistent environment everywhere
+- never lose a setup again
 
 ---
 
 ## ⚠️ Note
 
-These dotfiles are tailored to my personal workflow. Feel free to fork and modify them according to your needs.
+tailored to my personal workflow — feel free to fork and modify.
 
 ---
 
 <div align="center">
 
-### 🚀 Happy Hacking
-
 *"Configure once, use everywhere."*
+
+🐧 built with love on CachyOS
 
 </div>
