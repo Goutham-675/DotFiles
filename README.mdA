@@ -6,13 +6,7 @@ A collection of configuration files, shell customizations, aliases, and tools th
 
 ---
 
-## 📸 Preview
 
-```
-Your terminal setup here 🚀
-```
-
----
 
 ## 📦 What's Included
 
@@ -29,56 +23,13 @@ Your terminal setup here 🚀
 
 Clone the repository:
 
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-Make the installer executable:
-
-```bash
+git clone https://github.com/Goutham-675/DotFiles.git
+cd Dofiles
 chmod +x install.sh
-```
 
-Run the installation:
-
-```bash
-./install.sh
-```
 
 That's it! The script will automatically set up the entire environment.
 
----
-
-## 🔄 Updating
-
-To pull the latest changes:
-
-```bash
-git pull origin main
-```
-
-If required, rerun the installer:
-
-```bash
-./install.sh
-```
-
----
-
-## 📁 Repository Structure
-
-```text
-.
-├── install.sh
-├── .bashrc
-├── .zshrc
-├── .gitconfig
-├── .config/
-└── ...
-```
-
----
 
 ## 🛠 Requirements
 
@@ -88,7 +39,6 @@ If required, rerun the installer:
 
 Additional dependencies (if any) are handled by the installer.
 
----
 
 ## 🎯 Goal
 
