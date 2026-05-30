@@ -1,0 +1,116 @@
+# ✨ Dotfiles
+
+> My personal Linux development environment setup.
+
+A collection of configuration files, shell customizations, aliases, and tools that I use daily. This repository allows me to quickly recreate my preferred development environment on a fresh system.
+
+---
+
+## 📸 Preview
+
+```
+Your terminal setup here 🚀
+```
+
+---
+
+## 📦 What's Included
+
+- 🐚 Shell configuration
+- ⚡ Aliases and productivity shortcuts
+- 🎨 Terminal customization
+- 🔧 Development environment settings
+- 📁 Personal dotfiles
+- 🚀 Automated installation script
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+
+Make the installer executable:
+
+```bash
+chmod +x install.sh
+```
+
+Run the installation:
+
+```bash
+./install.sh
+```
+
+That's it! The script will automatically set up the entire environment.
+
+---
+
+## 🔄 Updating
+
+To pull the latest changes:
+
+```bash
+git pull origin main
+```
+
+If required, rerun the installer:
+
+```bash
+./install.sh
+```
+
+---
+
+## 📁 Repository Structure
+
+```text
+.
+├── install.sh
+├── .bashrc
+├── .zshrc
+├── .gitconfig
+├── .config/
+└── ...
+```
+
+---
+
+## 🛠 Requirements
+
+- Linux
+- Git
+- Bash
+
+Additional dependencies (if any) are handled by the installer.
+
+---
+
+## 🎯 Goal
+
+The purpose of this repository is to:
+
+- Quickly bootstrap a new machine
+- Keep configurations version-controlled
+- Maintain a consistent development environment
+- Save time when switching systems
+
+---
+
+## ⚠️ Note
+
+These dotfiles are tailored to my personal workflow. Feel free to fork and modify them according to your needs.
+
+---
+
+<div align="center">
+
+### 🚀 Happy Hacking
+
+*"Configure once, use everywhere."*
+
+</div>
