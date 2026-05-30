@@ -1,0 +1,56 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "modules-left": ["hyprland/workspaces"],
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "*": [1, 2, 3, 4, 5]
+    },
+    "disable-scroll": false
+  },
+  "modules-center": ["clock"],
+  "modules-right": [
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    "battery",
+    "backlight"
+  ],
+  "clock": {
+    "format": "\uf017  {:%a %d %b  %I:%M %p}"
+},
+"network": {
+    "format-wifi": "\uf1eb  {signalStrength}%",
+    "format-disconnected": "\uf127  disconnected",
+    "on-click": "nm-connection-editor"
+},
+  "bluetooth": {
+    "format": "\uf294",
+    "on-click": "blueman-manager"
+  },
+  "pulseaudio": {
+    "format": "\uf028  {volume}%",
+    "format-muted": "\uf026  muted",
+    "tooltip": true,
+    "on-click": "pavucontrol",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-"
+  },
+"battery": {
+    "format": "{icon}  {capacity}%",
+    "format-charging": "\uf0e7  {capacity}%",
+    "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
+    "states": {
+        "warning": 30,
+        "critical": 15
+    }
+},
+  "backlight": {
+    "format": "\uf185  {percent}%",
+    "on-scroll-up": "brightnessctl set +2%",
+    "on-scroll-down": "brightnessctl set 2%-"
+  }
+}
+

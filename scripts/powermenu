@@ -1,0 +1,2 @@
+#!/bin/bash
+wlogout --protocol layer-shell -b 3 -T 350 -B 350

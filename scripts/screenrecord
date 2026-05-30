@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if pgrep -x wf-recorder > /dev/null; then
+    pkill -INT wf-recorder
+    notify-send "Screen Recording" "Recording saved to ~/Videos"
+else
+    filename=~/Videos/recording-$(date +'%Y-%m-%d_%H-%M-%S').mp4
+    notify-send "Screen Recording" "Recording started"
+    wf-recorder -f "$filename" &
+fi

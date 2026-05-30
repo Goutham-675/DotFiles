@@ -1,0 +1,11 @@
+#!/bin/bash
+
+WALLDIR="/home/goutham/Pictures/wallpapers"
+
+WALL=$(find "$WALLDIR" -maxdepth 1 -type f | sed 's|.*/||' | wofi --dmenu --prompt "wallpaper")
+
+[ -z "$WALL" ] && exit 0
+
+swww img "$WALLDIR/$WALL" \
+  --transition-type grow \
+  --transition-duration 0.6

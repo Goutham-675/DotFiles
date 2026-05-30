@@ -1,0 +1,8 @@
+show=drun
+prompt=Search
+width=400
+height=300
+show_all=false
+print_command=true
+allow_images=true
+icon_size=24

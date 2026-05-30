@@ -1,0 +1,18 @@
+font=SF Pro Text 11
+background-color=#0f0f0f
+text-color=#e0e0e0
+border-color=#ffffff22
+border-size=1
+border-radius=8
+padding=12
+margin=10
+width=300
+height=100
+anchor=top-right
+layer=overlay
+default-timeout=4000
+ignore-timeout=0
+
+[urgency=high]
+border-color=#cc6666aa
+text-color=#ff8888
