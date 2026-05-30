@@ -1,7 +1,9 @@
 ## 📸 Preview
 
 ![setup1](preview/screenshot-2026-05-30_13-50-58.png)
+
 ![setup2](preview/2026-05-30_13-53-12.png)
+
 ![setup3](preview/2026-05-30_13-56-48.png)
 
 
