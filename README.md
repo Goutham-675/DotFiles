@@ -9,7 +9,7 @@
 ![setup](preview/2026-05-30_15-56-48.png)
 
 
-# ✨ Dotfiles
+# 😵 Dotfiles
 
 > minimal · fast · clean — my personal hyprland setup on CachyOS
 
